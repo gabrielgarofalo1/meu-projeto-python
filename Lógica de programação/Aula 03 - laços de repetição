@@ -1,0 +1,79 @@
+# Laços de repetição - loops
+# for e while
+#Ex:
+#for i in range (2,11,2): # range (5) significa que o loop vai de 0 a 4, ou seja, 5 vezes.
+ #   print (f"Repetição número {i}") 
+    
+'''
+# Lista de nomes
+nomes = ["Gabriel", "Ana", "João", "Maria"]
+dados = [15, 8.5, "gabriel garofalo silva", True]
+idades = [12, 15, 18, 20, 25, 30]
+for nome in nomes:
+    print (f"Olá, {nome}!")
+for dado in dados:
+    print (f"Dado: {dado}")
+for idade in idades:
+    if idade >= 18:
+        print (f"Idade {idade}: Maior de idade")
+    else:
+        print (f"Idade {idade}: Menor de idade")
+'''
+'''
+# Problema faca um sista que precisa verificar se todas as senha digitads por usuarios sao validas  
+# para ela ser valida ele deve contem ao menos 6 caracteres.
+q1= senha digitada pelo usuario
+q2= verificar se a senha tem ao menos 6 caracteres  
+q3= 
+    - senha
+q4= exibir se a senha é valida ou invalida
+q5= 
+receber a senha
+verificar se ela possui ao menos 6 caracteres
+exibir se a senha é valida ou invalida   
+
+# len(variavel)  função que retorna a quantidade de caracteres de uma string
+# len(senha)  retorna a quantidade de caracteres da variavel senha
+
+
+senhas = ["abc123", "minha_senha", "123", "senha_segura_2024", "pwd"]
+for senha in senhas:
+     if len(senha) >= 6:
+         print (f"Senha '{senha}' é válida.")
+     else:
+         print (f"Senha '{senha}' é inválida.")
+'''
+
+'''
+while condicao:
+    syntaxe:
+while condicao
+        # codigo a ser executado
+
+código enquanto a condição for verdadeira
+  
+  Criar um programa que permite 3 tentativas de login
+q1= tentativas de login 
+q2= permitir 3 tentativas de login
+q3= 
+    - usuario
+    - senha
+q4= permitir 3 tentativas de login
+q5= 
+receber usuario e senha
+permitir 3 tentativas de login
+
+'''
+tentativas = 0
+while tentativas > 3:
+    print ('tente novamente')
+    tentativas = tentativas + 1 
+# Quando queremos que uma ação continue acontecendo, ate que um
+# critério sea satisfeito
+# so pode logar, se digitar a senha correta
+password = ''
+while password != '1212':
+    input_senha = input ("Digite sua senha: ")
+    
+print('Bem vindo ao sistema!')
+    
