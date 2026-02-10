@@ -62,18 +62,38 @@ q4= permitir 3 tentativas de login
 q5= 
 receber usuario e senha
 permitir 3 tentativas de login
-
 '''
+
 tentativas = 0
-while tentativas > 3:
-    print ('tente novamente')
-    tentativas = tentativas + 1 
+#while tentativas > 3:
+  #  print ('tente novamente')
+  #  tentativas = tentativas + 1 
 # Quando queremos que uma ação continue acontecendo, ate que um
 # critério sea satisfeito
 # so pode logar, se digitar a senha correta
-password = ''
-while password != '1212':
-    input_senha = input ("Digite sua senha: ")
-    
-print('Bem vindo ao sistema!')
-    
+# password = ''
+# while password != '1212':
+  #  input_senha = input ("Digite sua senha: ")
+
+# print('Bem vindo ao sistema!')
+ # Garantir que algo esteja preenchio
+ # So deve continuar, quando o usuario informar seu nome 
+
+# nome = ''
+# O .strip() remove espaços em branco antes e depois do texto
+# while nome.strip() == '':
+  #  nome = input('Digite seu nome: ')
+
+# print(f'Bem vindo {nome}')
+
+# Contadores dentro do while 
+# ser avisado as 17hrs do por do sol
+# contar de hora em hora ate chegar as 17hrs
+# ao chegar as 17hrs, exibir hora de ver o por do sol
+
+horario = 11
+while horario <= 12: 
+    print(horario)
+    horario = horario + 1
+
+print('hora de ver o por do sol')
